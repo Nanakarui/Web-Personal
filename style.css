@@ -23,6 +23,9 @@ nav {
     margin-right: 5px;
     width: 50px;
     height: 50px;
+}
+
+.logo img:hover {
     box-shadow: 0 0 5px white;
 }
 
@@ -37,13 +40,35 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: black;
+    color: white;
+    box-shadow: 0 0 5px white;
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-container {
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
 
 .about {

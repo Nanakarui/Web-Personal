@@ -73,6 +73,13 @@ nav a:hover {
     }
 }
 
+.header-idol h2 {
+    color: purple;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .idol-list {
     display: flex;
     justify-content: space-around;
@@ -172,4 +179,28 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.gallery {
+    text-align: center;
+    padding: 30px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-container img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.photo-container img:hover {
+    transform: scale(1.1);
 }

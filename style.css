@@ -84,6 +84,28 @@ nav a:hover {
     }
 }
 
+.social-media-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-icons a {
+    margin: 0 10px;
+}
+
+.social-media-icons img {
+    width: 40px;
+    /* Sesuaikan ukuran logo sesuai kebutuhan */
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media-icons img:hover {
+    transform: scale(1.2);
+}
+
 .about {
     text-align: center;
     padding: 30px;

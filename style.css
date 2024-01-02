@@ -164,7 +164,7 @@ nav a:hover {
 }
 
 .idol:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 
 .social-media a {
@@ -269,5 +269,5 @@ footer p {
 }
 
 .photo-container img:hover {
-    transform: scale(1.8);
+    transform: scale(1.6);
 }
